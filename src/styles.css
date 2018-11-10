@@ -1,0 +1,36 @@
+body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background: url('../images/background.png');
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: lightblue;
+}
+.title, .addDancerButton, .lineUp, .go{
+  padding:5px 12px;
+  float:left;
+}
+.topbar{
+  height:32px;
+  background-color: #555;
+}
+.dancer{
+  border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+.sillyDancer {
+  border:none;
+  content:url('../images/face1.png');
+}
+.blinkyDancer {
+  border:none;
+  content:url('../images/face2.png');
+}
+.circleDancer {
+  border:none;
+  content:url('../images/face3.png');
+}
